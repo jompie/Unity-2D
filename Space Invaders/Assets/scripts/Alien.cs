@@ -98,7 +98,7 @@ public class Alien : MonoBehaviour
                 //SoundManager.Instance.PlayOneShot(SoundManager.Instance.alienBuzz2);
             }
 
-            //yield return new WaitForSeconds(SecsBeforeSpriteChange);
+            yield return new WaitForSeconds(SecsBeforeSpriteChange);
             
         }
     }
