@@ -30,7 +30,7 @@ public class Shape : MonoBehaviour
 
     void IncreaseSpeed()
     {
-        Shape.Speed -= .001f;
+        Shape.Speed -= .0001f;
     }
 
 	
